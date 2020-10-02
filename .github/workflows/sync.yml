@@ -18,6 +18,6 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           
       - name: Synchronize ORY Works
-        run: ./scripts/sync-library.sh ory/oryworks master Themes
+        run: ./scripts/sync-library.sh ory/oryworks master ORYworks
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN_AENEASR }}
