@@ -1,0 +1,26 @@
+{
+  "name": "javascript-action-test",
+  "version": "1.0.0",
+  "description": "testing github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinckr/javascript-action-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinckr/javascript-action-test/issues"
+  },
+  "homepage": "https://github.com/vinckr/javascript-action-test#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@octokit/request": "^5.4.9",
+    "@octokit/rest": "^18.0.6"
+  }
+}
