@@ -1,21 +1,20 @@
-# Hello world javascript action
+# getcontributors javascript action
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action ....
 
 ## Inputs
 
-### `who-to-greet`
+### a
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** a
 
 ## Outputs
 
-### `time`
+### `b`
 
-The time we greeted you.
 
 ## Example usage
 
 uses: actions/hello-world-javascript-action@v1.1
 with:
-  who-to-greet: 'Mona the Octocat'
+  a: 'a'
