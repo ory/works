@@ -1,0 +1,16 @@
+name: First interaction
+
+on:
+  pull_request:
+  issues:
+
+jobs:
+    name: Run
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: TylerLeonhardt/first-interaction-pwsh@master
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "#### Hi 👋\nCongrats on opening your first issue!\nIf you are looking for more information on how to contribute check out our [contribution guide](https://github.com/ory/meta/blob/master/CONTRIBUTING.md)."
+        pr-message: "#### Hi 👋\nCongrats on opening your pull request!\n Have you already joined the community on [slack](https://www.ory.sh/chat) or the [forum](https://community.ory.sh/)?"
