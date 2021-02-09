@@ -1,6 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  
+
+**Table of Contents**
 
 - [Ory Kratos](#ory-kratos)
   - [Ory Kratos Python Frontend](#ory-kratos-python-frontend)
@@ -16,15 +17,15 @@
 
 This repository shows examples of practical solutions using Ory projects and other OSS
 
-The following repositories are mostly produced by the community and not maintained by the Ory team. 
+The following repositories are mostly produced by the community and not maintained by the Ory team.
 
 They can and will contain errors, missing documentation and may not work as intended.
 
 These are meant as **examples** and **reference implementations**, not to be used in production!
 
-## Ory Kratos 
+## Ory Kratos
 
-### Ory Kratos Python Frontend 
+### Ory Kratos Python Frontend
 
 **Repository**:  
 https://github.com/k9ert/ory-tinker/  
@@ -36,7 +37,7 @@ https://github.com/k9ert/ory-tinker/
 **Discussion**:  
 https://github.com/ory/kratos/discussions/1049  
 **Description**:  
-A detailed discussion around setting Ory Kratos up with a Nginx reverse proxy. 
+A detailed discussion around setting Ory Kratos up with a Nginx reverse proxy.
 
 ### Ory Kratos hydra-integration branch
 
@@ -56,13 +57,12 @@ https://git.dittberner.info/jan/hydra_oidc_poc
 **Description**:  
 Implementation of a small pair of OIDC applications (a resource server and a login/consent server) using Hydra.
 
-
 ### Ory Hydra/ Ory Oathkeeper Zero Trust Reference "Hello World App"
 
 **Repository**:  
 https://github.com/JasonCubic/oathkeeper_hydra_reverse_proxy  
 **Description**:  
-**WIP** A reverse proxy reference using Ory Oathkeeper/Hydra and OIDC 
+**WIP** A reverse proxy reference using Ory Oathkeeper/Hydra and OIDC
 
 ## Ory Oathkeeper
 
@@ -70,8 +70,8 @@ https://github.com/JasonCubic/oathkeeper_hydra_reverse_proxy
 
 **Issue**:  
 https://github.com/ory/oathkeeper/issues/624  
-**Description**:   
-An issue collecting some best practices around Istio/Oathkeeper and reference configuration.  
+**Description**:  
+An issue collecting some best practices around Istio/Oathkeeper and reference configuration.
 
 ### Ory Oathkeeper and Auth0
 
@@ -85,8 +85,7 @@ A tutorial for a user management solution using ORY Oathkeeper and Auth0
 **Repository**  
 https://github.com/i-core/werther  
 **Description**  
-An Identity Provider for ORY Hydra over LDAP 
-
+An Identity Provider for ORY Hydra over LDAP
 
 ## Old Projects
 
@@ -94,6 +93,6 @@ Approach with caution, these repositories are very old and just here for archiva
 
 ---
 
-*Here be dragons*
+_Here be dragons_
 
 ---
